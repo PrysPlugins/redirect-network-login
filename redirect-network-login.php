@@ -14,3 +14,21 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	die( 'You can\'t do anything by accessing this file directly.' );
 }
+
+// This plugin isn't any good on single sites
+if ( ! is_multisite() ) {
+	return;
+}
+
+add_action( 'login_init', 'jpry_redirect_network_login' );
+/**
+ * Redirect sub-site login pages to the primary site login page
+ * 
+ * @since 1.0
+ */
+function jpry_redirect_network_login() {
+	if ( ! is_main_site() ) {
+		wp_redirect( get_site_url( 1, 'wp-login.php', 'login' ), 301 );
+		exit;
+	}
+}
