@@ -5,7 +5,8 @@
  * Description: Redirect the <pre>wp-login.php</pre> form of sub-sites to the main site login form
  * Version: 1.0
  * Author: Jeremy Pry
- * Author URI: https://github.com/JCPry/
+ * Author URI: http://jeremypry.com/
+ * Network: true
  * License: GPL2
  */
 
