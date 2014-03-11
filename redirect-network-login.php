@@ -23,7 +23,7 @@ if ( ! is_multisite() ) {
 add_action( 'login_init', 'jpry_redirect_network_login' );
 /**
  * Redirect sub-site login pages to the primary site login page
- * 
+ *
  * @since 1.0
  */
 function jpry_redirect_network_login() {
