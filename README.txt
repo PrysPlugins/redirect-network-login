@@ -30,10 +30,6 @@ Advanced installation (`mu-plugins` directory):
 
 None yet. Ask away!
 
-== Screenshots ==
-
-(none yet)
-
 == Changelog ==
 
 = 1.1 =
