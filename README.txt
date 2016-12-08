@@ -3,8 +3,8 @@ Contributors: JPry
 Donate link: 
 Tags: multisite, login
 Requires at least: 3.5.2
-Tested up to: 3.8.1
-Stable tag: 1.0
+Tested up to: 4.7
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,10 @@ None yet. Ask away!
 (none yet)
 
 == Changelog ==
+
+= 1.1 =
+* Use the `get_network()` function if possible (this was added in 4.6).
+* Update the Readme.
 
 = 1.0 =
 * Plugin created
