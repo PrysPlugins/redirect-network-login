@@ -3,7 +3,7 @@
  * Plugin Name: Redirect Network Login
  * Plugin URI: http://wordpress.org/plugins/redirect-network-login/
  * Description: Redirect the <pre>wp-login.php</pre> form of sub-sites to the main site login form
- * Version: 1.1
+ * Version: 1.1.0
  * Author: Jeremy Pry
  * Author URI: http://jeremypry.com/
  * Network: true
